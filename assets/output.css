@@ -160,11 +160,23 @@
   .static {
     position: static;
   }
+  .block {
+    display: block;
+  }
   .contents {
     display: contents;
   }
+  .flex {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
   .table {
     display: table;
+  }
+  .flex-grow {
+    flex-grow: 1;
   }
   .border-collapse {
     border-collapse: collapse;
