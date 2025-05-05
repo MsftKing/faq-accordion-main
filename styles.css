@@ -44,7 +44,49 @@ body {
 div.accordian-holder {
     background-color: var(--white-color);
     z-index: 3;
-    position: relative;
+    text-align: left;
+    position:sticky;
     margin: 25px;
-    padding: 25px auto;
+    padding: 25px;
+    border-radius: 3%;
+    max-width: 75vw;
+}
+
+button {
+    border: none;
+    background-color: var(--white-color);
+
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expand-button, accordian {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.accordian {
+    color: var(--purple-950);
+    cursor: pointer;
+    width: auto;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+h2.accordian:hover {
+    color: var(--purple-600);
+    font: 600;
+}
+
+.accordian-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
